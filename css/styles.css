@@ -1,0 +1,21 @@
+@font-face {
+  font-family: caddy;
+  src: url("../fonts/English111\ Vivace\ BT.ttf")
+}
+
+body {
+  background-image: url("../images/cadillac-wallpaper.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:orange;
+  background-blend-mode: screen;
+}
+
+h2 {
+  font-family: caddy;
+}
+
+
+.card {
+  margin: 25px;
+}
