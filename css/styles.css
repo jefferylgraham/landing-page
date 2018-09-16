@@ -58,6 +58,7 @@ iframe, .card {
 
 .card {
   margin: 25px;
+  color:black;
 }
 .card iframe {
   box-shadow: none;
