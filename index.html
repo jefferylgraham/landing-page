@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
   <link href="http://allfont.net/allfont.css?fonts=english-111-vivace-bt" rel="stylesheet" type="text/css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Landing Page</title>
 </head>
@@ -31,13 +32,13 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#models">Models</a>
+            <a class="nav-link" href="#features">Features</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#video-section">Video</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#models">Models</a>
           </li>
         </ul>
       </div>
@@ -46,7 +47,7 @@
 
     <section class="row justify-content-center text-center" id="form-section">
       <form action="#" id="form">
-        <h2 class="text-center">Dare Greatly</h2>
+        <h1 class="text-center">Dare Greatly</h1>
 
         <div class="form-group">
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -56,30 +57,39 @@
       </form>
     </section>
 
-    <section class="row justify-content-center" id="features">
+    <section class="row justify-content-center">
+      <h2>Features</h2>
+    </section>
+
+    <section data-aos="flip-down" class="row justify-content-center" id="features">
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-car"></i></span>
-          <h2>Innovation</h2>
-          <p>The future, today. Hands-free driving and vehicle-to-vehicle communication are the latest forward-thinking
+          <h3>Innovation</h3>
+          <p>The future, today. Hands-free driving and vehicle-to-vehicle communication are the latest
+            forward-thinking
             technologies finding their way into new Cadillacs.
           </p>
         </li>
         <li><span class="fa-li"><i class="fas fa-car"></i></span>
-          <h2>Performance</h2>
+          <h3>Performance</h3>
           <p>Power and prestige in equal measure. Our visionary engineering and extraordinary design create the most
             advanced and thrilling Cadillacs the world has ever seen.
           </p>
         </li>
         <li><span class="fa-li"><i class="fas fa-car"></i></span>
-          <h2>Craftsmanship</h2>
+          <h3>Craftsmanship</h3>
           <p>
-            No detail too small, nor too big. From bold surfaces to curated interiors, our skilled craftsmen carefully
+            No detail too small, nor too big. From bold surfaces to curated interiors, our skilled craftsmen
+            carefully
             hand-tailor every millimeter of every Cadillac we build.
           </p>
         </li>
       </ul>
     </section>
 
+    <div class="row justify-content-center">
+      <h2>Video</h2>
+    </div>
     <section class="row justify-content-center" id="video-section">
       <iframe src="https://www.youtube.com/embed/EIKuJKTUsz8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
         allowfullscreen></iframe>
@@ -90,39 +100,39 @@
         <h2>Models</h2>
       </div>
       <div class="row justify-content-center">
-        <div class="card">
+        <div data-aos="fade-right" class="card">
           <img class="card-img-top" class="img-fluid" src="images/cadillac-crossovers-suv.jpg" alt="Picture of Cadillace SUV">
           <div class="card-body">
             <h5 class="card-title">Crossovers & SUVs</h5>
             <p class="card-text">Cadillac crossovers and SUVs are as versatile as they are iconic.</p>
-            <a href="https://www.cadillac.com/crossovers-suvs" target="_blank" class="btn btn-primary">Check out more
-              crossovers & SUVs</a>
+            <a href="https://www.cadillac.com/crossovers-suvs" target="_blank" class="btn btn-primary">Check out
+              crossovers/SUVs</a>
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-left" class="card">
           <img class="card-img-top" class="img-fluid" src="images/cadillac-coupes.jpg" alt="Picture of Cadillace coupe">
           <div class="card-body">
             <h5 class="card-title">Coupes</h5>
             <p class="card-text">Cadillac crossovers and SUVs are as versatile as they are iconicCadillac coupes are
               bold and stylish with performance to match.</p>
-            <a href="https://www.cadillac.com/coupes" target="_blank" class="btn btn-primary">Check out more coupes</a>
+            <a href="https://www.cadillac.com/coupes" target="_blank" class="btn btn-primary">Check out coupes</a>
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-right" class="card">
           <img class="card-img-top" class="img-fluid" src="images/cadillac-sedans.jpg" alt="Picture of Cadillace sedan">
           <div class="card-body">
             <h5 class="card-title">Sedans</h5>
             <p class="card-text">Cadillac luxury sedans celebrate the driving experience with sporty, precision-crafted
               engines and head-turning design.</p>
-            <a href="https://www.cadillac.com/sedans" target="_blank" class="btn btn-primary">Check out more sedans</a>
+            <a href="https://www.cadillac.com/sedans" target="_blank" class="btn btn-primary">Check out sedans</a>
           </div>
         </div>
       </div>
 
       <div class="row justify-content-center">
-        <div class="card">
+        <div data-aos="fade-up" class="card">
           <iframe src="https://www.youtube.com/embed/RuAqR1VjmXI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
             allowfullscreen></iframe>
           <div class="card-body">
@@ -140,15 +150,17 @@
 
   </div>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

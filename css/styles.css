@@ -7,25 +7,48 @@ body {
   background-image: url("../images/cadillac-wallpaper.png");
   background-attachment: fixed;
   background-size: cover;
-  background-color:orange;
-  background-blend-mode: screen;
+  background-color:gray;
+  background-blend-mode: soft-light;
+  color: white;
 }
 
 form, #video-section, #models {
   margin-bottom: 42px;;
 }
 
-h2 {
+h1, h2, h3 {
   font-family: caddy;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 form h2 {
   margin: 21px auto;
-  font-size: 3rem;
+}
+
+iframe, .card {
+  width: 853px;
+  height: 480px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 5px;
+}
+
+#features {
+  width: 75vw;
+  margin: 0 auto;
 }
 
 #models h2 {
-  font-size: 3rem;
 }
 
 #video-section, #models {
@@ -35,6 +58,10 @@ form h2 {
 
 .card {
   margin: 25px;
+}
+.card iframe {
+  box-shadow: none;
+  border-radius: 0;
 }
 
 @media screen and (max-width: 769px) {
@@ -49,4 +76,24 @@ form h2 {
     z-index: -10;
     background-image: linear-gradient(#97140C, #CBAA4D);
   }
+
+  #features {
+    width: 90vw;
+    margin-bottom: 15px;  
+  }
+
+  iframe {
+    width: 90vw;
+    height: 90vw;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+  }
+
+  .card {
+    width: 90vw;
+    height: 98vw;
+    margin: 10px auto;
+    padding: 0;
+  }
+
 }
